@@ -1,0 +1,1 @@
+web: gunicorn di_reader.wsgi --log-file -

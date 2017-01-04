@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html {
+    margin-top: 150px;
+    background-color: #f7eae4;
+    font-family: Helvetica;
+    padding: 25px;
+}
+
+ul {
+    text-align: center;
+}
+
+.di_article-lead {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}

@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'unlock/style.css' %}" />
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <br><br><br>
+
+    <ul>
+        {% block content %}
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Lås upp!" />
+        </form>
+        {% endblock %}
+    </ul>
+
+</body>
+   
