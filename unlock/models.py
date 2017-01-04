@@ -13,7 +13,7 @@ def print_article(site_url):
     
     article_content = {
         "title": soup.find('h1', class_='di_article-top__heading').prettify(),
-        #"img": soup.picture.get('srcset'),
+        #"img": soup.find('img').get('src'),
         "txt": soup.find('div', class_='di_article-content').prettify()
     }
     
